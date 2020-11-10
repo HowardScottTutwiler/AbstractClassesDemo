@@ -48,11 +48,11 @@ namespace ConsoleUI
             var motorcycle = new Motorcycle() { HasSideCart = true, make = "Honda", model = "550" };
 
             // twice - create an object of type vehicle with explicit typing: Vehicle whatever = new Car();
-            Vehicle sedan = new Car();
-            {  Make = "Acura", Model = "TL", year = 2002 };
+            Vehicle sedan2 = new Car()
+            {  make = "Acura", model = "TL", year = 2002 };
 
-            Vehicle sedan = new Car();
-            {  Make = "Toyota", Model = "Corolla", year = 2003 };
+            Vehicle sedan3 = new Car()
+            {  make = "Toyota", model = "Corolla", year = 2003 };
             /*
              * Add the 4 vehicles to the list
              * Using a foreach loop iterate over each of the properties
